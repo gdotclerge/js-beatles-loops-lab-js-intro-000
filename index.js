@@ -18,3 +18,15 @@ function johnLennonFacts(facts){
   }
   return facts
 }
+
+
+function iLoveTheBeatles(n){
+  var fanatic = [];
+
+  do{
+    fanatic.push('I love the Beatles!');
+    n++;
+  } while (n < 15);
+
+  return fanatic 
+}
