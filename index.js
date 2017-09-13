@@ -11,6 +11,19 @@ function theBeatlesPlay(musicians, instruments){
 
 
 
+function johnLennonFacts(facts){
+  let arr = [];
+  let i = 0;
+
+  while (facts.length > i){
+    arr.push(facts[i] + '!!!');
+    i++
+  }
+
+  return arr
+}
+
+
 
 function iLoveTheBeatles(n){
   var fanatic = [];
